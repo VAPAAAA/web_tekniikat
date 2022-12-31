@@ -1,0 +1,6 @@
+Bootstrap page doc.
+
+Background color: #ffff.
+Font: Native font stack(Bootstrap default).
+Bootstrap logo color: #6648b1.
+Social colors: fb #3b5998,  twitter #00aced, ig #517fa4, yt #bb0000.

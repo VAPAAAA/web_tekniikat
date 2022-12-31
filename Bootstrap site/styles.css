@@ -67,6 +67,9 @@
       font-size: 2.5em;
       padding: 1.5rem;
     }
+    footer {
+    display: none;
+  }
     }
   @media (max-width: 768px) {
     .navbar-brand {
