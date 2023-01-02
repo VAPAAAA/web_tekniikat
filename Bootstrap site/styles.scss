@@ -1,0 +1,116 @@
+$bootstrapcolor: #6648b1;
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+.navbar {
+    padding: 15px;
+  }
+  .navbar-brand {
+    text-align: left;
+    font-size: 30px;
+   
+  }
+  .navbar-nav li {
+    padding-right: 20px;
+  }
+  .nav-link {
+    font-size: 20px;
+  }
+  .nav-link:hover {
+    color: $bootstrapcolor;
+    border-bottom: $bootstrapcolor solid 3px;
+  }
+.carousel-inner img {
+        object-fit: cover;
+        object-position: center;
+        height: 50vh;
+        overflow: hidden;
+      }
+    .carousel-caption {
+      position:absolute;
+      top: 50%;
+    }
+    .carousel-caption h1 {
+      font-size: 400%;
+      text-transform: uppercase;
+      text-shadow: 2px 2px 15px #000;
+    }
+    .btn-primary {
+      background-color: $bootstrapcolor;
+      border:1px solid $bootstrapcolor;
+    }
+    .btn-primary:hover {
+      background-color: #573e96;
+      border:1px solid #563d7c;
+    }
+
+.social a {
+    font-size: 3.5em;
+    padding: 3rem;
+  }
+  .bi-facebook {
+    color: #3b5998;
+  }
+  .bi-twitter {
+    color: #00aced;
+  }
+  .bi-instagram {
+    color: #517fa4;
+  }
+  .bi-youtube {
+    color: #bb0000;
+   }
+   .bi-bootstrap-fill {
+    font-size: 50px;
+    color: $bootstrapcolor;
+  }
+   
+   @media (max-width: 992px) {
+    .social a {
+      font-size: 2.5em;
+      padding: 1.5rem;
+    }
+    footer {
+    display: none;
+  }
+    }
+  @media (max-width: 768px) {
+    .navbar-brand {
+    position: fixed;
+    left: 0; 
+    }
+    .nav-link:hover {
+    border: none;
+    }
+    
+    .carousel-caption {
+      top: 35%;
+    }
+    .carousel-caption h1 {
+      font-size: 280%;
+    }
+    .carousel-caption .btn {
+      font-size: 95%;
+      padding: 8px 14px;
+    }
+  }
+  @media (max-width: 576px) {
+    
+  }
+
+div > h5 {
+    color: #ffff;
+    text-shadow: 2px 2px 4px #000000;
+}
+div[class=accordion-item] {
+    font-weight: 1000;
+    background-color: $bootstrapcolor;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(226, 225, 225);
+}
+  
