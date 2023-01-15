@@ -1,4 +1,6 @@
-# Lisätty readme
+# Web-tekniikat kansiot luotu kurssia varten
+
+## Readme lisätty
 
 Readme Web-tekniikat kurssille!
 
