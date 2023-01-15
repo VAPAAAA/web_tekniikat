@@ -1,4 +1,4 @@
-# Web-tekniikat repositiorio luotu web-tekniikat kurssia varten
+# Web-tekniikat repositiorio luotu kurssia varten
 
 ## Readme lisätty
 
